@@ -118,12 +118,6 @@ int main(void)
   {
 	  if(timer0_flag == 1)
 	  {
-		  counter_for_shift--;
-		  if(counter_for_shift <= 0)
-		  {
-			  shiftLeft(matrix);
-			  counter_for_shift = 100;
-		  }
 		  updateCharA(counter_chA++, matrix);
 		  if(counter_chA == 8)
 		  {

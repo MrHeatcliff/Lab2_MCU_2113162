@@ -1,0 +1,27 @@
+/*
+ * shiftLeft.h
+ *
+ *  Created on: 22 thg 10, 2023
+ *      Author: Heathcliff
+ */
+
+#ifndef INC_SHIFTLEFT_H_
+#define INC_SHIFTLEFT_H_
+
+int matrix[8][8];
+void cloneMatrix()
+{
+	for(int i = 0; i < 8; i++)
+	{
+		for(int j = 0; j < 8; j++)
+		{
+			matrix[i][j] = matrixA[i][j];
+		}
+	}
+}
+void shiftLeft(int matrix[8][8])
+{
+
+}
+
+#endif /* INC_SHIFTLEFT_H_ */

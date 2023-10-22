@@ -174,7 +174,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 7:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][7] == 0)
+				if(matrixA[i][7] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}

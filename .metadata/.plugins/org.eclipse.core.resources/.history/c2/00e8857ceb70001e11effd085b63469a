@@ -122,13 +122,13 @@ int main(void)
 		  if(counter_for_shift <= 0)
 		  {
 			  shiftLeft(matrix);
-			  counter_for_shift = 100;
 		  }
 		  updateCharA(counter_chA++, matrix);
 		  if(counter_chA == 8)
 		  {
 			  counter_chA = 0;
 		  }
+
 		  setTimer0(10);
 	  }
     /* USER CODE END WHILE */

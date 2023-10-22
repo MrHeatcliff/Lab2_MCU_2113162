@@ -83,7 +83,7 @@ void timer_run()
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	cloneMatrix();
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -112,22 +112,26 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   setTimer0 (10);
+  int counter_matrix = 0;
   int counter_chA = 0;
-  int counter_for_shift = 100;
+  int matrix_flag = 1;
+  int counter_for_shift = 0;
   while (1)
   {
 	  if(timer0_flag == 1)
 	  {
-		  counter_for_shift--;
-		  if(counter_for_shift <= 0)
+		  if(matrix_flag == 1)
 		  {
-			  shiftLeft(matrix);
-			  counter_for_shift = 100;
+			  updateLEDMatrix(counter_matrix++);
+			  if(counter_matrix == 8) matrix_flag = 0;
 		  }
-		  updateCharA(counter_chA++, matrix);
-		  if(counter_chA == 8)
+		  else
 		  {
-			  counter_chA = 0;
+			  updateCharA(counter_chA++);
+			  if(counter_chA == 8)
+			  {
+				  counter_chA = 0;
+			  }
 		  }
 		  setTimer0(10);
 	  }

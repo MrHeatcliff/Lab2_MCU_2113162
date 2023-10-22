@@ -8,7 +8,7 @@
 #ifndef INC_UPDATECHARA_H_
 #define INC_UPDATECHARA_H_
 
-const int matrixA[8][8] = {
+int matrixA[8][8] = {
 		{1, 1, 1, 0, 0, 1, 1, 1},
 		{1, 1, 0, 1, 1, 0, 1, 1},
 	 	{1, 0, 1, 1, 1, 1, 0, 1},
@@ -18,7 +18,6 @@ const int matrixA[8][8] = {
 		{1, 0, 1, 1, 1, 1, 0, 1},
 		{1, 0, 1, 1, 1, 1, 0, 1}
 };
-
 
 GPIO_TypeDef* portArr[8] = {
 		ROW0_GPIO_Port,
@@ -41,14 +40,14 @@ uint16_t pinArr[8] ={
 		ROW6_Pin,
 		ROW7_Pin
 };
-void updateCharA(int index, int matrix[8][8])
+void updateCharA(int index)
 {
 	switch(index)
 		{
 		case 0:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][0] == 0)
+				if(matrixA[i][0] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -66,7 +65,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 1:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][1] == 0)
+				if(matrixA[i][1] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -84,7 +83,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 2:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][2] == 0)
+				if(matrixA[i][2] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -102,7 +101,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 3:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][3] == 0)
+				if(matrixA[i][3] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -120,7 +119,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 4:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][4] == 0)
+				if(matrixA[i][4] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -138,7 +137,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 5:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][5] == 0)
+				if(matrixA[i][5] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -156,7 +155,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 6:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][6] == 0)
+				if(matrixA[i][6] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
@@ -174,7 +173,7 @@ void updateCharA(int index, int matrix[8][8])
 		case 7:
 			for(int i = 0; i<8; i++)
 			{
-				if(matrix[i][7] == 0)
+				if(matrixA[i][7] == 0)
 				{
 					HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
 				}
