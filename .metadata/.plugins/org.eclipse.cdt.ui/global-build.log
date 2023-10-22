@@ -1,0 +1,1767 @@
+21:32:12 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:32:34 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:33:11 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:33:55 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6852	     20	   1644	   8516	   2144	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:40:42 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6856	     20	   1644	   8520	   2148	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+21:41:15 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6852	     20	   1644	   8516	   2144	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+ 
+Finished building: Lab2.list
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:49:42 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6852	     20	   1644	   8516	   2144	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:53:59 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6808	     20	   1644	   8472	   2118	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+21:55:27 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+21:56:45 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+21:57:27 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:59:07 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+22:19:04 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+22:20:36 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1644	   8556	   216c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+22:21:03 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6792	     20	   1644	   8456	   2108	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.list
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+ 
+ 
+ 
+22:22:38 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6776	     20	   1644	   8440	   20f8	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+22:25:10 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6796	     20	   1644	   8460	   210c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+22:25:25 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6796	     20	   1644	   8460	   210c	Lab2.elf
+Finished building: default.size.stdout
+ 
+22:25:35 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   6796	     20	   1644	   8460	   210c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+15:08:01 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6976	     20	   1644	   8640	   21c0	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.bin
+Finished building: Lab2.hex
+ 
+ 
+Finished building: Lab2.list
+ 
+15:10:22 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   8604	     20	   1644	  10268	   281c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+15:25:13 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8604	     20	   1644	  10268	   281c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+16:02:36 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:22:1: error: unknown type name 'uint_16'
+   22 | uint_16 portArr[8] = {
+      | ^~~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:128,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:29,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:237,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:116:24: note: in expansion of macro 'GPIOB'
+  116 | #define ROW0_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:23:3: note: in expansion of macro 'ROW0_GPIO_Port'
+   23 |   ROW0_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:116:24: note: in expansion of macro 'GPIOB'
+  116 | #define ROW0_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:23:3: note: in expansion of macro 'ROW0_GPIO_Port'
+   23 |   ROW0_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:118:24: note: in expansion of macro 'GPIOB'
+  118 | #define ROW1_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:24:3: note: in expansion of macro 'ROW1_GPIO_Port'
+   24 |   ROW1_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[1]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:118:24: note: in expansion of macro 'GPIOB'
+  118 | #define ROW1_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:24:3: note: in expansion of macro 'ROW1_GPIO_Port'
+   24 |   ROW1_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:80:24: note: in expansion of macro 'GPIOB'
+   80 | #define ROW2_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:25:3: note: in expansion of macro 'ROW2_GPIO_Port'
+   25 |   ROW2_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[2]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:80:24: note: in expansion of macro 'GPIOB'
+   80 | #define ROW2_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:25:3: note: in expansion of macro 'ROW2_GPIO_Port'
+   25 |   ROW2_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:82:24: note: in expansion of macro 'GPIOB'
+   82 | #define ROW3_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:26:3: note: in expansion of macro 'ROW3_GPIO_Port'
+   26 |   ROW3_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[3]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:82:24: note: in expansion of macro 'GPIOB'
+   82 | #define ROW3_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:26:3: note: in expansion of macro 'ROW3_GPIO_Port'
+   26 |   ROW3_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:84:24: note: in expansion of macro 'GPIOB'
+   84 | #define ROW4_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:27:3: note: in expansion of macro 'ROW4_GPIO_Port'
+   27 |   ROW4_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[4]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:84:24: note: in expansion of macro 'GPIOB'
+   84 | #define ROW4_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:27:3: note: in expansion of macro 'ROW4_GPIO_Port'
+   27 |   ROW4_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:86:24: note: in expansion of macro 'GPIOB'
+   86 | #define ROW5_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:28:3: note: in expansion of macro 'ROW5_GPIO_Port'
+   28 |   ROW5_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[5]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:86:24: note: in expansion of macro 'GPIOB'
+   86 | #define ROW5_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:28:3: note: in expansion of macro 'ROW5_GPIO_Port'
+   28 |   ROW5_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:88:24: note: in expansion of macro 'GPIOB'
+   88 | #define ROW6_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:29:3: note: in expansion of macro 'ROW6_GPIO_Port'
+   29 |   ROW6_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[6]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:88:24: note: in expansion of macro 'GPIOB'
+   88 | #define ROW6_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:29:3: note: in expansion of macro 'ROW6_GPIO_Port'
+   29 |   ROW6_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:90:24: note: in expansion of macro 'GPIOB'
+   90 | #define ROW7_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:30:3: note: in expansion of macro 'ROW7_GPIO_Port'
+   30 |   ROW7_GPIO_Port
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[7]')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:90:24: note: in expansion of macro 'GPIOB'
+   90 | #define ROW7_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:30:3: note: in expansion of macro 'ROW7_GPIO_Port'
+   30 |   ROW7_GPIO_Port
+      |   ^~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:33:1: error: unknown type name 'uint_16'
+   33 | uint_16 pinArr[8] ={
+      | ^~~~~~~
+../Core/Inc/updateCharA.h: In function 'updateCharA':
+../Core/Inc/updateCharA.h:52:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   52 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:54:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   54 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:54:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   54 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:70:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   70 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:72:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   72 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:72:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   72 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:83:3: error: duplicate case value
+   83 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:88:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   88 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:90:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+   90 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:90:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   90 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:101:3: error: duplicate case value
+  101 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:106:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  106 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:108:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  108 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:108:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  108 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:119:3: error: duplicate case value
+  119 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:124:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  124 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:126:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  126 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:126:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  126 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:137:3: error: duplicate case value
+  137 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:142:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  142 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:144:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  144 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:144:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  144 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:155:3: error: duplicate case value
+  155 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:160:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  160 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:162:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  162 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:162:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  162 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:178:31: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  178 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:180:35: warning: passing argument 1 of 'HAL_GPIO_WritePin' makes pointer from integer without a cast [-Wint-conversion]
+  180 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   int
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:180:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  180 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        int *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'int *'
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:04:05 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:128,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:29,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:237,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:116:24: note: in expansion of macro 'GPIOB'
+  116 | #define ROW0_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:23:3: note: in expansion of macro 'ROW0_GPIO_Port'
+   23 |   ROW0_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].CRL')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:116:24: note: in expansion of macro 'GPIOB'
+  116 | #define ROW0_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:23:3: note: in expansion of macro 'ROW0_GPIO_Port'
+   23 |   ROW0_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:118:24: note: in expansion of macro 'GPIOB'
+  118 | #define ROW1_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:24:3: note: in expansion of macro 'ROW1_GPIO_Port'
+   24 |   ROW1_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].CRH')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:118:24: note: in expansion of macro 'GPIOB'
+  118 | #define ROW1_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:24:3: note: in expansion of macro 'ROW1_GPIO_Port'
+   24 |   ROW1_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:80:24: note: in expansion of macro 'GPIOB'
+   80 | #define ROW2_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:25:3: note: in expansion of macro 'ROW2_GPIO_Port'
+   25 |   ROW2_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].IDR')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:80:24: note: in expansion of macro 'GPIOB'
+   80 | #define ROW2_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:25:3: note: in expansion of macro 'ROW2_GPIO_Port'
+   25 |   ROW2_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:82:24: note: in expansion of macro 'GPIOB'
+   82 | #define ROW3_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:26:3: note: in expansion of macro 'ROW3_GPIO_Port'
+   26 |   ROW3_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].ODR')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:82:24: note: in expansion of macro 'GPIOB'
+   82 | #define ROW3_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:26:3: note: in expansion of macro 'ROW3_GPIO_Port'
+   26 |   ROW3_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:84:24: note: in expansion of macro 'GPIOB'
+   84 | #define ROW4_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:27:3: note: in expansion of macro 'ROW4_GPIO_Port'
+   27 |   ROW4_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].BSRR')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:84:24: note: in expansion of macro 'GPIOB'
+   84 | #define ROW4_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:27:3: note: in expansion of macro 'ROW4_GPIO_Port'
+   27 |   ROW4_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:86:24: note: in expansion of macro 'GPIOB'
+   86 | #define ROW5_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:28:3: note: in expansion of macro 'ROW5_GPIO_Port'
+   28 |   ROW5_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].BRR')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:86:24: note: in expansion of macro 'GPIOB'
+   86 | #define ROW5_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:28:3: note: in expansion of macro 'ROW5_GPIO_Port'
+   28 |   ROW5_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:88:24: note: in expansion of macro 'GPIOB'
+   88 | #define ROW6_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:29:3: note: in expansion of macro 'ROW6_GPIO_Port'
+   29 |   ROW6_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[0].LCKR')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:88:24: note: in expansion of macro 'GPIOB'
+   88 | #define ROW6_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:29:3: note: in expansion of macro 'ROW6_GPIO_Port'
+   29 |   ROW6_GPIO_Port,
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: warning: initialization of 'long unsigned int' from 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} makes integer from pointer without a cast [-Wint-conversion]
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:90:24: note: in expansion of macro 'GPIOB'
+   90 | #define ROW7_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:30:3: note: in expansion of macro 'ROW7_GPIO_Port'
+   30 |   ROW7_GPIO_Port
+      |   ^~~~~~~~~~~~~~
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:651:29: note: (near initialization for 'portArr[1].CRL')
+  651 | #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+      |                             ^
+../Core/Inc/main.h:90:24: note: in expansion of macro 'GPIOB'
+   90 | #define ROW7_GPIO_Port GPIOB
+      |                        ^~~~~
+../Core/Inc/updateCharA.h:30:3: note: in expansion of macro 'ROW7_GPIO_Port'
+   30 |   ROW7_GPIO_Port
+      |   ^~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:22:27: warning: missing braces around initializer [-Wmissing-braces]
+   22 | GPIO_TypeDef portArr[8] = {
+      |                           ^
+../Core/Inc/updateCharA.h: In function 'updateCharA':
+../Core/Inc/updateCharA.h:52:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   52 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:54:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   54 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:54:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   54 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:70:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   70 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:72:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   72 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:72:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   72 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:83:3: error: duplicate case value
+   83 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:88:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   88 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:90:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+   90 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:90:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   90 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:101:3: error: duplicate case value
+  101 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:106:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  106 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:108:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  108 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:108:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  108 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:119:3: error: duplicate case value
+  119 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:124:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  124 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:126:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  126 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:126:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  126 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:137:3: error: duplicate case value
+  137 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:142:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  142 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:144:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  144 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:144:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  144 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:155:3: error: duplicate case value
+  155 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:160:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  160 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:162:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  162 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:162:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  162 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:178:31: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  178 |      HAL_GPIO_WritePin(portArr[i], pinArr[i], RESET);
+      |                        ~~~~~~~^~~
+      |                               |
+      |                               GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:180:35: error: incompatible type for argument 1 of 'HAL_GPIO_WritePin'
+  180 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                            ~~~~~~~^~~
+      |                                   |
+      |                                   GPIO_TypeDef {aka struct <anonymous>}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:38: note: expected 'GPIO_TypeDef *' {aka 'struct <anonymous> *'} but argument is of type 'GPIO_TypeDef' {aka 'struct <anonymous>'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:180:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  180 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:05:29 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h: In function 'updateCharA':
+../Core/Inc/updateCharA.h:54:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   54 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:72:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   72 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:83:3: error: duplicate case value
+   83 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:90:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+   90 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:101:3: error: duplicate case value
+  101 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:108:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  108 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:119:3: error: duplicate case value
+  119 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:126:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  126 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:137:3: error: duplicate case value
+  137 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:144:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  144 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:155:3: error: duplicate case value
+  155 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:162:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  162 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h:180:40: warning: passing argument 2 of 'HAL_GPIO_WritePin' makes integer from pointer without a cast [-Wint-conversion]
+  180 |     else HAL_GPIO_WritePin(portArr[i], pinArr, SET);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:234:54: note: expected 'uint16_t' {aka 'short unsigned int'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  234 | void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ~~~~~~~~~^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:06:33 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:23:
+../Core/Inc/updateCharA.h: In function 'updateCharA':
+../Core/Inc/updateCharA.h:83:3: error: duplicate case value
+   83 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:101:3: error: duplicate case value
+  101 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:119:3: error: duplicate case value
+  119 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:137:3: error: duplicate case value
+  137 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:155:3: error: duplicate case value
+  155 |   case 1:
+      |   ^~~~
+../Core/Inc/updateCharA.h:65:3: note: previously used here
+   65 |   case 1:
+      |   ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:06:59 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8764	     68	   1644	  10476	   28ec	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+16:08:29 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   8780	     68	   1644	  10492	   28fc	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+16:09:45 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8780	     68	   1644	  10492	   28fc	Lab2.elf
+Finished building: default.size.stdout
+ 
+21:32:38 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+  10836	     72	   1648	  12556	   310c	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.list
+Finished building: Lab2.bin
+Finished building: Lab2.hex
+ 
+ 
+ 
+21:33:16 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10836	     72	   1648	  12556	   310c	Lab2.elf
+Finished building: default.size.stdout
+ 
+21:36:05 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10836	     72	   1648	  12556	   310c	Lab2.elf
+Finished building: default.size.stdout
+ 
+21:37:25 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:7: warning: unused variable 'matrix_flag' [-Wunused-variable]
+  116 |   int matrix_flag = 1;
+      |       ^~~~~~~~~~~
+../Core/Src/main.c:115:7: warning: unused variable 'counter_chA' [-Wunused-variable]
+  115 |   int counter_chA = 0;
+      |       ^~~~~~~~~~~
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   8880	     24	   1648	  10552	   2938	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 
+21:38:01 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:7: warning: unused variable 'matrix_flag' [-Wunused-variable]
+  116 |   int matrix_flag = 1;
+      |       ^~~~~~~~~~~
+../Core/Src/main.c:115:7: warning: unused variable 'counter_chA' [-Wunused-variable]
+  115 |   int counter_chA = 0;
+      |       ^~~~~~~~~~~
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   8660	     24	   1648	  10332	   285c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.list
+Finished building: Lab2.bin
+ 
+ 
+ 
+21:39:27 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Heathcliff\OneDrive\Desktop\Lab2_MCU_2113162\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+  10836	     72	   1648	  12556	   310c	Lab2.elf
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+Finished building: Lab2.list
+ 
+ 
+ 

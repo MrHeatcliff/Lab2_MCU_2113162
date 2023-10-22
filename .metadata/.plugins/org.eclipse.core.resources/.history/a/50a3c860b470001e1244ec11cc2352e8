@@ -1,0 +1,26 @@
+/*
+ * updateCharA.h
+ *
+ *  Created on: Oct 22, 2023
+ *      Author: Heathcliff
+ */
+
+#ifndef INC_UPDATECHARA_H_
+#define INC_UPDATECHARA_H_
+
+const int matrixA[8][8] = {
+		{1, 1, 1, 0, 0, 1, 1, 1},
+		{1, 1, 0, 1, 1, 0, 1, 1},
+		{1, 0, 1, 1, 1, 1, 0, 1},
+		{1, 0, 1, 1, 1, 1, 0, 1},
+		{1, 0, 0, 0, 0, 0, 0, 1},
+		{1, 0, 1, 1, 1, 1, 0, 1},
+		{1, 0, 1, 1, 1, 1, 0, 1},
+		{1, 0, 1, 1, 1, 1, 0, 1}
+};
+
+void updateCharA()
+{
+}
+
+#endif /* INC_UPDATECHARA_H_ */
